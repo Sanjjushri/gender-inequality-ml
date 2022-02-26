@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 # Local import
-import similar_countries_4_criteria as simi
+import similar_countries_10_criteria as simi
 
 def main():
     
