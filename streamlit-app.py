@@ -11,7 +11,7 @@ def main():
 
     html_temp = """
     <div style = "background-color:blue; padding:10px">
-    <h5 style  = "color:white"; text-align:center; "> Find Countries with similar GII Rank </h5>
+    <h5 style  = "color:white"; text-align:center; "> Find Countries with similar Gender inequality rate based on GII Rank, MMR, Adolescent Birth Rate, Population with Secondary Education (Male & Female), Labour Force Participation Rate (Male & Female) </h5>
     </div>
     """
 

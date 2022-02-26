@@ -61,10 +61,10 @@ def find_similar_learner(columns, primary_column, given_entity_name):
 
     print('Direct similarity : '+most_nearer_entity)
 
-    print('\nTop 4 similar learner Sorted')
-    similar_4_list = find_top_similar_entitties(5, df, distance_frame, primary_column)
+    print('\nTop 10 similar learner Sorted')
+    similar_10_list = find_top_similar_entitties(11, df, distance_frame, primary_column)
 
-    return similar_4_list
+    return similar_10_list
 
 def find_similar_student(top_developer_name):
 
